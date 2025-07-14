@@ -1,26 +1,31 @@
 @import "tailwindcss";
 
+/* Define color variables */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  --background: #ffffff; /* White background for light mode */
+  --foreground: #171717; /* Dark text for light mode */
+  --font-sans: "Winky Rough", sans-serif; /* Custom font */
+  --font-mono: "Geist Mono", monospace; /* Assuming Geist Mono is imported */
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Custom colors */
+  --forest-green: #1e3a34;
+  --tan: #d2b48c;
+  --steel-blue: #4682b4;
+  --linen: #faf0e6;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    background: var(--background); 
+    color: var(--foreground); 
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background); /* White background in light mode */
+  color: var(--foreground); /* Dark text in light mode */
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif; 
+  margin: 0; 
+  padding: 0;
 }
+
