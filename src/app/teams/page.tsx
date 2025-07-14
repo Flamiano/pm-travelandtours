@@ -24,12 +24,12 @@ const teams = [
   {
     system: "Human Resource 2 (Talent Development & Career Pathing)",
     leader: {
-      name: "Flamiano, John Roel R.",
+      name: "Sabas, Rhymniel",
       role: "Team Leader",
       description:
         "Leads the design of talent growth systems such as Learning and Career Development. Oversees integration with the ESS portal.",
     },
-    members: ["John Doe 5", "John Doe 6", "John Doe 7", "John Doe 8"],
+    members: ["Acoymo, Jhon R.", "Saldua, Jovan P.", "Barlaan, Kairve A."],
   },
   {
     system: "Human Resource 3 (Workforce Operations & Time Management)",

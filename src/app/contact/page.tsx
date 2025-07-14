@@ -19,8 +19,8 @@ export default function ContactPage() {
         >
           <h1 className="text-4xl sm:text-5xl font-bold mb-3">Get in Touch</h1>
           <p className="text-sm sm:text-base opacity-90">
-            We'd love to hear from you. Reach out for inquiries, support, or
-            collaborations.
+            We&apos;d love to hear from you. Reach out for inquiries, support,
+            or collaborations.
           </p>
         </motion.div>
       </section>
